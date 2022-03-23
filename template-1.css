@@ -1,0 +1,49 @@
+/* -------------------- */
+/*  Grid Template - 1   */
+/* -------------------- */
+
+.wrapper {
+    gap: 0;
+}
+
+.header {
+    text-align: center;
+    justify-items: center;
+    padding: 1.5rem;
+}
+
+.header .logo {
+    width: 6rem;
+}
+
+.area-item-1,
+.area-item-2 {
+    border: 1px solid hsl(var(--clr-secundario));
+}
+
+@media (min-width: 980px) {
+
+    .wrapper {
+        grid-template-columns: repeat(5, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-column-gap: 0;
+        grid-row-gap: 0;
+    }
+
+    .header { grid-area: 1 / 1 / 2 / 6; }
+    .navegacion-primaria { grid-area: 2 / 2 / 3 / 6; }
+    .navegacion-secundaria { grid-area: 2 / 1 / 5 / 2; }
+    .main { grid-area: 3 / 2 / 5 / 6; }
+    .footer { grid-area: 5 / 1 / 6 / 6; } 
+
+    .area {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: 1fr;;
+        gap: 2rem;
+    }
+
+    .area-item-1 { grid-area: 1 / 1 / 2 / 2; }
+    .area-item-2 { grid-area: 1 / 2 / 2 / 4; } 
+
+}
