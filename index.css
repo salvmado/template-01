@@ -4,8 +4,7 @@
 
 @font-face {
     font-family: 'Bree Serif';
-    /* src: url('/media/fonts/BreeSerif-Regular.woff2') format('woff2'); */
-    src: url('./media/fonts/BreeSerif-Regular.woff2');
+    src: url('./media/fonts/BreeSerif-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -13,8 +12,7 @@
 
 @font-face {
     font-family: 'Ultra';
-    /* src: url('/media/fonts/Ultra-Regular.woff2') format('woff2'); */
-    src: url('./media/fonts/Ultra-Regular.woff2');
+    src: url('./media/fonts/Ultra-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -23,7 +21,7 @@
 /* 400 */
 @font-face {
     font-family: 'Lato';
-    src: url('/media/fonts/Lato-Regular.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -31,7 +29,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('/media/fonts/Lato-Italic.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -40,7 +38,7 @@
 /* 700 */
 @font-face {
     font-family: 'Lato';
-    src: url('/media/fonts/Lato-Bold.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -48,7 +46,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('/media/fonts/Lato-BoldItalic.woff2') format('woff2');
+    src: url('./media/fonts/Lato-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
