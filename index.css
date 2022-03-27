@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Bree Serif';
-    src: url('../media/fonts/BreeSerif-Regular.woff2') format('woff2');
+    src: url('./media/fonts/BreeSerif-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: 'Ultra';
-    src: url('../media/fonts/Ultra-Regular.woff2') format('woff2');
+    src: url('./media/fonts/Ultra-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -21,7 +21,7 @@
 /* 400 */
 @font-face {
     font-family: 'Lato';
-    src: url('../media/fonts/Lato-Regular.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Regular.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -29,7 +29,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('../media/fonts/Lato-Italic.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Italic.woff2') format('woff2');
     font-weight: normal;
     font-style: italic;
     font-display: swap;
@@ -38,7 +38,7 @@
 /* 700 */
 @font-face {
     font-family: 'Lato';
-    src: url('../media/fonts/Lato-Bold.woff2') format('woff2');
+    src: url('./media/fonts/Lato-Bold.woff2') format('woff2');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -46,7 +46,7 @@
 
 @font-face {
     font-family: 'Lato';
-    src: url('../media/fonts/Lato-BoldItalic.woff2') format('woff2');
+    src: url('./media/fonts/Lato-BoldItalic.woff2') format('woff2');
     font-weight: bold;
     font-style: italic;
     font-display: swap;
@@ -58,7 +58,7 @@
 
 :root {
     /* Colores en HSL*/
-    --clr-dark: 220 50% 20%;
+    --clr-dark: 226 69% 23%;
     --clr-light: 0 0% 90%;
     --clr-primario: 201 80% 25%;
     --clr-secundario: 192 97% 40%;
@@ -245,43 +245,43 @@ body {
 
 /* Navegación */
 
-.navegacion {
+/* .navegacion {
     --gap: 1.8rem;
     padding: .5rem 1rem;
     margin: 0;
     flex-wrap: wrap;
-}
+} */
 
-.navegacion a {
+/* .navegacion a {
     text-decoration: none;
     transition: all 200ms ease;
-}
+} */
 
-.navegacion a:hover,
+/* .navegacion a:hover,
 .navegacion a:focus {
     color: hsl(var(--clr-light) / 0.7);
     transition: all 200ms ease;
-}
+} */
 
-.ul {
+/* .ul {
     justify-content: center;
-}
+} */
 
-.ul li {
+/* .ul li {
     margin-right: 1rem;
-}
+} */
 
-.ul li:first-child::marker {
+/* .ul li:first-child::marker {
     color: hsl(var(--clr-light) / 0);
-}
+} */
 
 /* Color en desktop al "|" */
-.ul li::marker {
+/* .ul li::marker {
     content: "|      ";
     color: hsl(var(--clr-light) / 0 );
-}
+} */
 
-@media (min-width: 980px) {
+/* @media (min-width: 980px) {
 
     .navegacion {
         padding: .5rem 2rem;
@@ -320,7 +320,7 @@ body {
 .underline-indicators > .active,
 .underline-indicators > [aria-selected="true"] {
     border-color: hsl(var(--clr-light));
-}
+} */
 
 /* links */
 
