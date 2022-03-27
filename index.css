@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'Bree Serif';
-    src: url('/media/fonts/BreeSerif-Regular.woff2') format('woff2');
+    /* src: url('/media/fonts/BreeSerif-Regular.woff2') format('woff2'); */
+    src: url('./media/fonts/BreeSerif-Regular.woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -12,7 +13,8 @@
 
 @font-face {
     font-family: 'Ultra';
-    src: url('/media/fonts/Ultra-Regular.woff2') format('woff2');
+    /* src: url('/media/fonts/Ultra-Regular.woff2') format('woff2'); */
+    src: url('./media/fonts/Ultra-Regular.woff2');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
