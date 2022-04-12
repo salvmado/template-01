@@ -56,13 +56,13 @@ a:hover {
 }
 
 .index p:first-child {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .index p:nth-child(2) {
-    font-size: 3.8rem;
+    font-size: 4rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -73,7 +73,7 @@ a:hover {
 }
 
 .index p:last-child {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -81,12 +81,12 @@ a:hover {
 .subscription {
     width: 100%;
     background: #130729;
-    padding: 7.5rem 3rem 4rem 3rem;
+    padding: 7.5rem 4rem 4rem 4rem;
 }
 
 .subscription p {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-bottom: 3rem;
 }
 
