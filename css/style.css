@@ -81,7 +81,7 @@ a:hover {
 .subscription {
     width: 100%;
     background: #130729;
-    padding: 7.5rem 7.5rem 4rem 7.5rem;
+    padding: 7.5rem 3rem 4rem 3rem;
 }
 
 .subscription p {
@@ -148,6 +148,10 @@ a:hover {
 
     .index p:last-child {
         font-size: 1.8rem;
+    }
+
+    .subscription {
+        padding: 7.5rem 7.5rem 4rem 7.5rem;
     }
 
     .subscription p img {
