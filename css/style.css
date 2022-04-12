@@ -121,7 +121,7 @@ a:hover {
 }
 
 .subscription p:last-child {
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 
@@ -161,4 +161,9 @@ a:hover {
     .subscription p img {
         width: 15.75rem;
     }
+
+    .subscription p:last-child {
+        font-size: 1rem;
+    }
+
 }
