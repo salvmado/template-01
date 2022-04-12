@@ -86,7 +86,7 @@ a:hover {
 
 .subscription p {
     text-align: left;
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     margin-bottom: 3rem;
 }
 
@@ -153,6 +153,10 @@ a:hover {
     .subscription {
         padding: 7.5rem 7.5rem 4rem 7.5rem;
     }
+
+    .subscription p {
+        font-size: 1.4rem;
+    }  
 
     .subscription p img {
         width: 15.75rem;
