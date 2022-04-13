@@ -126,14 +126,13 @@ a:hover {
 
 /* Tablet  */
 
-@media (min-width: 768px) {
+@media (min-width: 700px) {
     .subscription {
         gap: calc(1rem + 1vw);
     }
 
     .subscription p {
         font-size: 1rem;
-        color: red;
     }
 }
 
