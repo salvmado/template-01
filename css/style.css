@@ -125,9 +125,13 @@ a:hover {
 
 @media (min-width: 768px) {
     .subscription {
-        padding: 4rem calc(5rem + 5vw) 2rem calc(5rem + 5vw);
+        padding: 4rem calc(6.5rem + 5vw) 2rem calc(6.5rem + 5vw);
         justify-content: center;
-        gap: calc(1.5rem + 1vw);
+        gap: calc(1rem + 1vw);
+    }
+
+    .subscription p {
+        font-size: 1rem;
     }
 }
 
