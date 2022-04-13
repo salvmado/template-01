@@ -83,7 +83,7 @@ a:hover {
     height: 100vh;
     background: #130729;
     /* padding: .5rem 1rem; */
-    padding: calc(1.5rem + 1vw);
+    padding: calc(1.5rem + 9vw);
 
     display: flex;
     flex-direction: column;
