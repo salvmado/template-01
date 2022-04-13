@@ -128,6 +128,7 @@ a:hover {
     .subscription {
         gap: calc(1rem + 1vw);
         padding: calc(1.5rem + 9vw);
+        justify-content: center;
     }
 
     .subscription p {
