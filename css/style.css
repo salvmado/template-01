@@ -55,24 +55,25 @@ a:hover {
 }
 
 .index p:first-child {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 4rem;
 }
 
 .index p:nth-child(2) {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-transform: uppercase;
 }
 
 .index img {
-    height: 11rem;
-    margin: 2.5rem 0;
+    height: 9rem;
+    margin: 1.2rem 0;
 }
 
 .index p:last-child {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -89,6 +90,7 @@ a:hover {
 }
 
 .subscription p {
+    font-size: .8rem;
     text-align: left;
 }
 
@@ -105,7 +107,7 @@ a:hover {
 }
 
 .subscription p img {
-    width: 10rem;
+    width: 9rem;
     height: auto;
     background: white;
     padding: .5rem;
@@ -116,7 +118,7 @@ a:hover {
 }
 
 .subscription p:last-child {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 /* Tablet  */
