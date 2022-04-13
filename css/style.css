@@ -119,6 +119,15 @@ a:hover {
     font-size: 0.8rem;
 }
 
+/* Tablet  */
+
+@media (min-width: 768px) {
+    .subscription {
+        padding: 4rem calc(5rem + 5vw) 2rem calc(5rem + 5vw);
+        justify-content: center;
+        gap: calc(1.5rem + 1vw);
+    }
+}
 
 /* Desktop */
 
@@ -145,7 +154,9 @@ a:hover {
     }
 
     .subscription {
-        padding: 2rem 5rem;
+        padding: 4rem calc(5rem + 7vw) 2rem calc(5rem + 7vw);
+        justify-content: center;
+        gap: calc(.5rem + 1vw);
     }
 
     .subscription p {
@@ -156,8 +167,13 @@ a:hover {
 	    width: 11.438rem;
     }
 
+    .subscription p:nth-child(6) {
+	    padding: 2rem 0;
+    }
+
     .subscription p:last-child {
 	    font-size: 0.813rem;
+        margin-top: 2rem;
     }
 
 }
