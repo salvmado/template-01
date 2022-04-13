@@ -125,7 +125,7 @@ a:hover {
 
 /* Tablet  */
 
-@media (min-width: 700px) {
+@media (min-width: 580px) {
     .subscription {
         gap: calc(1rem + 1vw);
         padding: calc(1.5rem + 9vw);
