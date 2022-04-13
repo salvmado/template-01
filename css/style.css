@@ -168,12 +168,11 @@ a:hover {
     }
 
     .subscription p:nth-child(6) {
-	    padding: 2rem 0;
+	    padding: 1rem 0;
     }
 
     .subscription p:last-child {
 	    font-size: 0.813rem;
-        margin-top: 2rem;
     }
 
 }
