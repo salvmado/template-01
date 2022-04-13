@@ -82,11 +82,13 @@ a:hover {
     width: 100%;
     height: 100vh;
     background: #130729;
-    padding: .5rem 1rem;
+    /* padding: .5rem 1rem; */
+    padding: calc(1.5rem + 1vw);
 
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: calc(1rem + 1vw);
 }
 
 .subscription p {
@@ -119,15 +121,13 @@ a:hover {
 
 .subscription p:last-child {
     font-size: 0.6rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 /* Tablet  */
 
 @media (min-width: 768px) {
     .subscription {
-        padding: 4rem calc(6.5rem + 5vw) 2rem calc(6.5rem + 5vw);
-        justify-content: center;
         gap: calc(1rem + 1vw);
     }
 
