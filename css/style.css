@@ -215,6 +215,10 @@ a:hover {
         margin: 0.5rem 0;
     }
 
+    .index p:last-child {
+        margin-bottom: 1.5rem;
+    }
+
     .subscription {
         width: 100%;
         height: auto;
