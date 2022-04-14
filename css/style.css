@@ -221,9 +221,12 @@ a:hover {
         margin-bottom: calc(.8rem + 2vw);
     }
 
+    .index p:first-child {
+        margin-top: 0;
+    }
+
     .subscription p img {
         width: calc(7rem + 4vh);
         height: auto;
     } 
-
 }
