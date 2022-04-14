@@ -210,6 +210,11 @@ a:hover {
         background-position: center;
     }
 
+    .index img {
+        height: 8rem;
+        margin: 0.5rem 0;
+    }
+
     .subscription {
         width: 100%;
         height: auto;
