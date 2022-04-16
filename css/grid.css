@@ -198,19 +198,19 @@ a:hover {
 }
 
 aside a:first-child::before {
-    content: url('/img/flecha.svg');
+    content: url('./img/flecha.svg');
     margin-right: .5rem;
     vertical-align: middle;
 }
 
 aside a:nth-child(2)::before {
-    content: url('/img/inscripcion.svg');
+    content: url('./img/inscripcion.svg');
     margin-right: .5rem;
     vertical-align: middle;
 }
 
 aside a:last-child::before {
-    content: url('/img/contacto.svg');
+    content: url('./img/contacto.svg');
     margin-right: .5rem;
     vertical-align: middle;
 }
@@ -259,7 +259,7 @@ aside a:last-child::before {
 }
 
 .index a::before {
-    content: url('/img/lista.svg');
+    content: url('./img/lista.svg');
     margin-right: .3rem;
 }
 
@@ -293,25 +293,25 @@ div {
 }
 
 .nav a:first-child::before {
-    content: url('/img/info.svg');
+    content: url('./img/info.svg');
     margin-right: .3rem;
     vertical-align: middle;
 }
 
 .nav a:nth-child(2)::before {
-    content: url('/img/inscripcion.svg');
+    content: url('./img/inscripcion.svg');
     margin-right: .3rem;
     vertical-align: middle;
 }
 
 .nav a:nth-child(3)::before {
-    content: url('/img/contacto.svg');
+    content: url('./img/contacto.svg');
     margin-right: .3rem;
     vertical-align: middle;
 }
 
 .nav a:last-child::before {
-    content: url('/img/institucional.svg');
+    content: url('./img/institucional.svg');
     margin-right: .3rem;
     vertical-align: middle;
 }
